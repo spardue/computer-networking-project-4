@@ -3,6 +3,7 @@
 #include <openssl/md5.h>
 #include <sys/queue.h>
 #define MAX_BUFF 512
+#define NAME_MAX 256
 
 struct FileInfo {
 	char name[NAME_MAX];

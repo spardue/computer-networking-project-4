@@ -1,15 +1,65 @@
 package com.example.cs_3251_project_3;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.Gravity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import java.util.List;
+import java.util.logging.Logger;
+
+import clientlogic.ClientLogic;
+import clientlogic.FileInfo;
+
+/**
+ * 
+ * @author Rikin Marfatia
+ *
+ */
 
 public class MainActivity extends Activity {
-
+	
+	public ClientLogic cL;
+	
+	EditText clientOutput;
+	Button listButton, diffButton, pullButton, leaveButton, capButton;
+	Logger logger;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		// matches variables with their resource id's, and sets up OnClickListeners
+		clientOutput = (EditText)findViewById(R.id.clientOutput);
+		
+		listButton = (Button)findViewById(R.id.listButton);
+		listButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				new ListRequest().execute();
+			}
+		});
+		
+		diffButton = (Button)findViewById(R.id.diffButton);
+		
+		pullButton = (Button)findViewById(R.id.pullButton);
+		
+		leaveButton = (Button)findViewById(R.id.leaveButton);
+		leaveButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				new LeaveRequest().execute();
+			}
+		});
+		
+		capButton = (Button)findViewById(R.id.capButton);
+		
+		new ConnectOperation().execute(""); // handles the initial connecting to the server
 	}
 
 	@Override
@@ -18,5 +68,102 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+	
+	private class ConnectOperation extends AsyncTask<String, Void, String> {
+
+		@Override
+		protected String doInBackground(String... arg0) {
+			String message = "Not Connected";
+			try {
+				cL = new ClientLogic();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			if(cL != null) {
+				message = "Connected";
+			}
+			return message;
+		}
+		
+		@Override
+		protected void onPostExecute(String result) {
+			clientOutput.setText("" + result);
+		}
+		
+	}
+	
+	
+	private class ListRequest extends AsyncTask<String,Void,String> {
+		
+		@Override
+		protected String doInBackground(String... params) {
+			
+			List<FileInfo> response = null;
+			StringBuilder output = new StringBuilder();
+			try {
+				response = cL.list();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			if(response != null) {
+				for(int i = 0; i < response.size(); i++) {
+					output.append(i + ". " + response.get(i).toString() + "\n");
+				}
+			} else {
+				output.append("Nothing Retrieved");
+			}
+			
+			return output.toString();
+		}
+		
+		@Override
+		protected void onPostExecute(String result) {
+			clientOutput.setTextSize(12);
+			clientOutput.setGravity(Gravity.LEFT);
+			clientOutput.setText("" + result);
+		}
+	}
+	
+	public void diffRequest() {
+		
+	}
+	
+	public void pullRequest() {
+		
+	}
+	
+	private class LeaveRequest extends AsyncTask<String,Void,String> {
+
+		@Override
+		protected String doInBackground(String... params) {
+			String message = "";
+			try {
+				cL.exit();
+			} catch(Exception e) {
+				e.printStackTrace();
+				message = "Could not close";
+			}
+			
+			return message;
+		}
+		
+		@Override
+		protected void onPostExecute(String result) {
+			if(result.equals("")) {
+				System.exit(0);
+			} else {
+				clientOutput.setText("" + result);
+			}
+		}
+		
+	}
+	
+	public void capRequest() {
+		
+	}
+	
+	
 
 }

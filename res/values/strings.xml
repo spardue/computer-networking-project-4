@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CS-3251-Project-3</string>
+    <string name="app_name">GTMyMusic</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Client</string>
+    <string name="list_button">List</string>
+    <string name="diff_button">Diff</string>
+    <string name="pull_button">Pull</string>
+    <string name="cap_button">Cap</string>
+    <string name="leave_button">Leave</string>
 
 </resources>
