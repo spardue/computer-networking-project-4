@@ -14,6 +14,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.*;
 
 
 /**
@@ -28,6 +29,7 @@ public class ClientLogic {
 	public final int SERVER_PORT = 1337;
 	public final String SERVER_ADDRESS = "128.61.24.142";
 	public final String LOCAL_FILE_PATH = "files";
+	public final int RCV_BUFF = 4096;
 	
 	private Socket s;
 	private OutputStream out;
@@ -148,6 +150,8 @@ public class ClientLogic {
 			}
 		}
 		
+		
+		byte buff[];
 		//System.out.println("bob : "+fInfo);
 		int size = -1;
 		try {
@@ -156,10 +160,22 @@ public class ClientLogic {
 			//System.out.println(size);
 			File newFile = new File(LOCAL_FILE_PATH, fInfo.name);
 			System.out.println(newFile+" "+size);
-			RandomAccessFile f = new RandomAccessFile(newFile, "rw");
-			for (int i = 0; i < size; i++){
-				f.write(is.readByte());
+			
+			FileOutputStream f = new FileOutputStream(newFile);
+			
+			int totalRead = 0;
+			buff = new byte[RCV_BUFF];
+				
+			int read = 0;
+			while (read < size) {
+				buff = new byte[RCV_BUFF];
+				int justRead = is.read(buff);
+				f.write(buff, 0, justRead);
+				read+=justRead;
+				totalRead+=justRead;
+				//System.out.printf("%d, toRead: %d, read: %d, justRead: %d\n", read, read, justRead);
 			}
+			System.out.println("total read: "+totalRead);
 			f.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
