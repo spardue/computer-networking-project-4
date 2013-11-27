@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.io.*;
 
-
 /**
  * 
  * @author Stephen Pardue
@@ -39,6 +38,12 @@ public class ClientLogic {
 	
 	public ClientLogic(File root){
 		this.root = root;
+		
+		
+		if (! root.exists()){
+			root.mkdir();
+		}
+		
 		
 		try {
 			s = new Socket(SERVER_ADDRESS, SERVER_PORT);
@@ -235,14 +240,10 @@ public class ClientLogic {
 		
 		//File root = new File(LOCAL_FILE_PATH);
 		
-		try {
-			if (! root.exists()) {
-				root.createNewFile();
-			}
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+		if (! root.exists()) {
+			root.mkdirs();
 		}
+		
 		for (File file :  root.listFiles()) {
 			FileInfo fInfo = new FileInfo();
 			try {
@@ -337,7 +338,7 @@ public class ClientLogic {
 	
 	public static void main(String[] arg){
 		
-		ClientLogic logic = new ClientLogic(new File("files"));
+		ClientLogic logic = new ClientLogic(new File("./files"));
 		System.out.println(logic.list());
 		System.out.println(logic.list());
 		//System.out.println(logic.getFilesFromLocalHost());
