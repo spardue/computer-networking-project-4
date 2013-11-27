@@ -130,8 +130,12 @@ void sendFile(int socket, char *directory, FileInfo *file) {
             exit(1);
         }
         
+        int sent = send(socket, buff, sizeof(char)*toRead, 0);
         
-        if (send(socket, buff, sizeof(char)*toRead, 0) != sizeof(char)*toRead){
+        if (sent != toRead) {
+            printf("sent: %d\n", sent);
+        }
+        if (sent != sizeof(char)*toRead){
             fprintf(stderr, "error sending the buff in sendFile\n");
             exit(1);
         }

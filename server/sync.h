@@ -16,7 +16,7 @@
 #include "netfileio.h"
 
 /* Constants */
-#define RCVBUFSIZE 1		    /* The receive buffer size */
+#define RCVBUFSIZE 4096		    /* The receive buffer size */
 #define SNDBUFSIZE 1		    /* The send buffer size */
 #define MDLEN 32
 
