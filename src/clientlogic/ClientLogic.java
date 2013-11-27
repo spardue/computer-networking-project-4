@@ -337,13 +337,13 @@ public class ClientLogic {
 	
 	public static void main(String[] arg){
 		
-//		ClientLogic logic = new ClientLogic();
-//		System.out.println(logic.list());
-//		System.out.println(logic.list());
-//		//System.out.println(logic.getFilesFromLocalHost());
-//		System.out.println(logic.diff());
-//		logic.pull();
-//		logic.exit();
+		ClientLogic logic = new ClientLogic(new File("files"));
+		System.out.println(logic.list());
+		System.out.println(logic.list());
+		//System.out.println(logic.getFilesFromLocalHost());
+		System.out.println(logic.diff());
+		logic.pull();
+		logic.exit();
 		
 	}
 	

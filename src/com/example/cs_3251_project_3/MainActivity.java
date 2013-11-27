@@ -40,9 +40,9 @@ public class MainActivity extends Activity {
 		
 		// matches variables with their resource id's, and sets up OnClickListeners
 		clientOutput = (EditText)findViewById(R.id.clientOutput);
-		
-		root = getExternalFilesDir(null);
+
 		baseDir = Environment.getExternalStorageDirectory().getAbsolutePath();
+		root = new File(baseDir + File.separator + "files");
 		
 		listButton = (Button)findViewById(R.id.listButton);
 		listButton.setOnClickListener(new View.OnClickListener() {
