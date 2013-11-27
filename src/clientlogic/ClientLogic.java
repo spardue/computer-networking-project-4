@@ -14,7 +14,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
-
+import java.io.*;
 
 /**
  * 
@@ -26,14 +26,25 @@ import java.util.List;
 public class ClientLogic {
 	
 	public final int SERVER_PORT = 1337;
-	public final String SERVER_ADDRESS = "127.0.0.1";
+	public final String SERVER_ADDRESS = "128.61.24.142";
 	public final String LOCAL_FILE_PATH = "files";
+	public final int RCV_BUFF = 1024;
+
 	
 	private Socket s;
 	private OutputStream out;
 	public DataInputStream is;
+	private File root; //root directory for external storage
 	
-	public ClientLogic(){
+	public ClientLogic(File root){
+		this.root = root;
+		
+		
+		if (! root.exists()){
+			root.mkdir();
+		}
+		
+		
 		try {
 			s = new Socket(SERVER_ADDRESS, SERVER_PORT);
 		} catch (UnknownHostException e) {
@@ -140,7 +151,7 @@ public class ClientLogic {
 			try {
 				char buff = (char) is.read();
 				if (buff != '\0'){
-					fInfo.name+=buff;
+					fInfo.name += buff;
 				}
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -148,18 +159,32 @@ public class ClientLogic {
 			}
 		}
 		
+		
+		byte buff[];
 		//System.out.println("bob : "+fInfo);
 		int size = -1;
 		try {
 			size = is.readInt();
 			size = Integer.reverseBytes(size);
 			//System.out.println(size);
-			File newFile = new File(LOCAL_FILE_PATH, fInfo.name);
+			File newFile = new File(root, fInfo.name); 
 			System.out.println(newFile+" "+size);
-			RandomAccessFile f = new RandomAccessFile(newFile, "rw");
-			for (int i = 0; i < size; i++){
-				f.write(is.readByte());
+			
+			FileOutputStream f = new FileOutputStream(newFile);
+			
+			int totalRead = 0;
+			buff = new byte[RCV_BUFF];
+				
+			int read = 0;
+			while (read < size) {
+				buff = new byte[RCV_BUFF];
+				int justRead = is.read(buff);
+				f.write(buff, 0, justRead);
+				read+=justRead;
+				totalRead+=justRead;
+				//System.out.printf("%d, toRead: %d, read: %d, justRead: %d\n", read, read, justRead);
 			}
+			System.out.println("total read: "+totalRead);
 			f.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -213,7 +238,11 @@ public class ClientLogic {
 		List<FileInfo> ret = new ArrayList<FileInfo>();
 		byte buff[];
 		
-		File root = new File(LOCAL_FILE_PATH);
+		//File root = new File(LOCAL_FILE_PATH);
+		
+		if (! root.exists()) {
+			root.mkdirs();
+		}
 		
 		for (File file :  root.listFiles()) {
 			FileInfo fInfo = new FileInfo();
@@ -308,7 +337,8 @@ public class ClientLogic {
 	
 	
 	public static void main(String[] arg){
-		ClientLogic logic = new ClientLogic();
+		
+		ClientLogic logic = new ClientLogic(new File("./files"));
 		System.out.println(logic.list());
 		System.out.println(logic.list());
 		//System.out.println(logic.getFilesFromLocalHost());
