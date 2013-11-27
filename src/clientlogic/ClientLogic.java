@@ -215,6 +215,15 @@ public class ClientLogic {
 		
 		File root = new File(LOCAL_FILE_PATH);
 		
+		
+		try {
+			if (! root.exists()) {
+				root.createNewFile();
+			}
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		for (File file :  root.listFiles()) {
 			FileInfo fInfo = new FileInfo();
 			try {
