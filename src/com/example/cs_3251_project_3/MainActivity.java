@@ -126,11 +126,23 @@ public class MainActivity extends Activity {
 		}
 	}
 	
-	public void diffRequest() {
+	private class DiffRequest extends AsyncTask<String,Void,String> {
+
+		@Override
+		protected String doInBackground(String... params) {
+
+			return null;
+		}
 		
 	}
 	
-	public void pullRequest() {
+	private class PullRequest extends AsyncTask<String,Void,String> {
+
+		@Override
+		protected String doInBackground(String... params) {
+			
+			return null;
+		}
 		
 	}
 	
