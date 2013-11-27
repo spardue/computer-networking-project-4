@@ -31,6 +31,7 @@ public class MainActivity extends Activity {
 	EditText clientOutput;
 	Button listButton, diffButton, pullButton, leaveButton, capButton;
 	Logger logger;
+	String baseDir;
 	File root;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,7 @@ public class MainActivity extends Activity {
 		clientOutput = (EditText)findViewById(R.id.clientOutput);
 		
 		root = getExternalFilesDir(null);
+		baseDir = Environment.getExternalStorageDirectory().getAbsolutePath();
 		
 		listButton = (Button)findViewById(R.id.listButton);
 		listButton.setOnClickListener(new View.OnClickListener() {

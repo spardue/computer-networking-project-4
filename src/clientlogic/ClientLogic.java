@@ -162,7 +162,7 @@ public class ClientLogic {
 			size = is.readInt();
 			size = Integer.reverseBytes(size);
 			//System.out.println(size);
-			File newFile = new File(root.getAbsolutePath(), fInfo.name); 
+			File newFile = new File(root, fInfo.name); 
 			System.out.println(newFile+" "+size);
 			
 			FileOutputStream f = new FileOutputStream(newFile);
