@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -28,6 +30,7 @@ public class MainActivity extends Activity {
 	EditText clientOutput;
 	Button listButton, diffButton, pullButton, leaveButton, capButton;
 	Logger logger;
+	File root;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -35,6 +38,8 @@ public class MainActivity extends Activity {
 		
 		// matches variables with their resource id's, and sets up OnClickListeners
 		clientOutput = (EditText)findViewById(R.id.clientOutput);
+		
+		root = getExternalFilesDir(null);
 		
 		listButton = (Button)findViewById(R.id.listButton);
 		listButton.setOnClickListener(new View.OnClickListener() {
@@ -90,7 +95,7 @@ public class MainActivity extends Activity {
 		protected String doInBackground(String... arg0) {
 			String message = "Not Connected";
 			try {
-				cL = new ClientLogic();
+				cL = new ClientLogic(root);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -122,6 +127,7 @@ public class MainActivity extends Activity {
 			}
 			
 			if(response != null) {
+				output.append("LIST: \n");
 				for(int i = 0; i < response.size(); i++) {
 					int fNum = i + 1;
 					output.append(fNum + ". " + response.get(i).toString() + "\n");
@@ -155,9 +161,10 @@ public class MainActivity extends Activity {
 			
 			if(response != null) {
 				if(response.size() > 0) {
+					output.append("DIFF: \n");
 					for(int i = 0; i < response.size(); i++) {
 						int fNum = i + 1;
-						output.append(fNum + response.get(i).toString() + "\n");
+						output.append(fNum + ". " + response.get(i).toString() + "\n");
 					}
 				} else {
 					output.append("All files owned locally!");
@@ -179,8 +186,22 @@ public class MainActivity extends Activity {
 
 		@Override
 		protected String doInBackground(String... params) {
+			StringBuilder output = new StringBuilder();
+			try {
+				cL.pull();
+			} catch (Exception e) {
+				e.printStackTrace();
+				output.append("Failed to Pull");
+			}
 			
-			return null;
+			return output.toString();
+		}
+		
+		@Override
+		protected void onPostExecute(String result) {
+			clientOutput.setTextSize(20);
+			clientOutput.setGravity(Gravity.CENTER);
+			clientOutput.setText("" + result);
 		}
 		
 	}

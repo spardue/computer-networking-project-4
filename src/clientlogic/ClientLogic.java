@@ -32,8 +32,11 @@ public class ClientLogic {
 	private Socket s;
 	private OutputStream out;
 	public DataInputStream is;
+	private File root;
 	
-	public ClientLogic(){
+	public ClientLogic(File root){
+		this.root = root;
+		
 		try {
 			s = new Socket(SERVER_ADDRESS, SERVER_PORT);
 		} catch (UnknownHostException e) {
@@ -154,7 +157,7 @@ public class ClientLogic {
 			size = is.readInt();
 			size = Integer.reverseBytes(size);
 			//System.out.println(size);
-			File newFile = new File(LOCAL_FILE_PATH, fInfo.name);
+			File newFile = new File(root.getAbsolutePath(), fInfo.name); 
 			System.out.println(newFile+" "+size);
 			RandomAccessFile f = new RandomAccessFile(newFile, "rw");
 			for (int i = 0; i < size; i++){
@@ -213,8 +216,7 @@ public class ClientLogic {
 		List<FileInfo> ret = new ArrayList<FileInfo>();
 		byte buff[];
 		
-		File root = new File(LOCAL_FILE_PATH);
-		
+		//File root = new File(LOCAL_FILE_PATH);
 		
 		try {
 			if (! root.exists()) {
@@ -318,13 +320,13 @@ public class ClientLogic {
 	
 	public static void main(String[] arg){
 		
-		ClientLogic logic = new ClientLogic();
-		System.out.println(logic.list());
-		System.out.println(logic.list());
-		//System.out.println(logic.getFilesFromLocalHost());
-		System.out.println(logic.diff());
-		logic.pull();
-		logic.exit();
+//		ClientLogic logic = new ClientLogic();
+//		System.out.println(logic.list());
+//		System.out.println(logic.list());
+//		//System.out.println(logic.getFilesFromLocalHost());
+//		System.out.println(logic.diff());
+//		logic.pull();
+//		logic.exit();
 		
 	}
 	
