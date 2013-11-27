@@ -140,7 +140,7 @@ public class ClientLogic {
 			try {
 				char buff = (char) is.read();
 				if (buff != '\0'){
-					fInfo.name+=buff;
+					fInfo.name += buff;
 				}
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -215,6 +215,15 @@ public class ClientLogic {
 		
 		File root = new File(LOCAL_FILE_PATH);
 		
+		
+		try {
+			if (! root.exists()) {
+				root.createNewFile();
+			}
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		for (File file :  root.listFiles()) {
 			FileInfo fInfo = new FileInfo();
 			try {
@@ -308,6 +317,7 @@ public class ClientLogic {
 	
 	
 	public static void main(String[] arg){
+		
 		ClientLogic logic = new ClientLogic();
 		System.out.println(logic.list());
 		System.out.println(logic.list());
