@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2013-11-27T01:49:59Z</date>
+	<key>Application Version</key><string>11.1.3</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/Stephen/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>B0B34D969D513C29</string>
+	<key>Tracks</key>
+	<dict>
+		<key>73</key>
+		<dict>
+			<key>Track ID</key><integer>73</integer>
+			<key>Name</key><string>Jenny Was A Friend Of Mine</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers/David Keuning</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3908840</integer>
+			<key>Total Time</key><integer>244166</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:29Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>A2044477632A548B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/01%20-%20Jenny%20Was%20A%20Friend%20Of%20Mine.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>75</key>
+		<dict>
+			<key>Track ID</key><integer>75</integer>
+			<key>Name</key><string>Mr. Brightside</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers/Mark Stoermer</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3570294</integer>
+			<key>Total Time</key><integer>223007</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:39Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3468343785</integer>
+			<key>Play Date UTC</key><date>2013-11-27T01:49:45Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2013-11-27T01:35:01Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>E6AC47853FB16DC3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/02%20-%20Mr.%20Brightside.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>77</key>
+		<dict>
+			<key>Track ID</key><integer>77</integer>
+			<key>Name</key><string>Smile Like You Mean It</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers/Mark Stoermer</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3756703</integer>
+			<key>Total Time</key><integer>234657</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:30Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3468343788</integer>
+			<key>Play Date UTC</key><date>2013-11-27T01:49:48Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2013-11-27T01:47:01Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>58DD1511EC299A43</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/03%20-%20Smile%20Like%20You%20Mean%20It.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>79</key>
+		<dict>
+			<key>Track ID</key><integer>79</integer>
+			<key>Name</key><string>Somebody Told Me</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers/David Keuning/Mark Stoermer/Ronnie Vannucci</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3157350</integer>
+			<key>Total Time</key><integer>197198</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:26Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-11-27T01:34:07Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>DFD9F258D7BCA706</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/04%20-%20Somebody%20Told%20Me.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>81</key>
+		<dict>
+			<key>Track ID</key><integer>81</integer>
+			<key>Name</key><string>All These Things That I've Done</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4834202</integer>
+			<key>Total Time</key><integer>302001</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:29Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-11-27T01:34:05Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>F2471EAE877A3599</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/05%20-%20All%20These%20Things%20That%20I've%20Done.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>83</key>
+		<dict>
+			<key>Track ID</key><integer>83</integer>
+			<key>Name</key><string>Andy, You're A Star</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3108031</integer>
+			<key>Total Time</key><integer>194115</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:29Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>67CD380ED00AADDD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/06%20-%20Andy,%20You're%20A%20Star.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>85</key>
+		<dict>
+			<key>Track ID</key><integer>85</integer>
+			<key>Name</key><string>On Top</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers/David Keuning/Mark Stoermer/Ronnie Vannucci</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4146241</integer>
+			<key>Total Time</key><integer>259004</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:28Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-11-27T01:34:42Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>E48419155917D4F1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/07%20-%20On%20Top.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>87</key>
+		<dict>
+			<key>Track ID</key><integer>87</integer>
+			<key>Name</key><string>Indie Rock &#38; Roll</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4075606</integer>
+			<key>Total Time</key><integer>254589</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:33Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>44480B4B565588AB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/08%20-%20Indie%20Rock%20&#38;%20Roll.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>89</key>
+		<dict>
+			<key>Track ID</key><integer>89</integer>
+			<key>Name</key><string>Believe Me Natalie</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers/Ronnie Vannucci</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4883103</integer>
+			<key>Total Time</key><integer>305057</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:30Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>E6D901C65F4ADA6A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/09%20-%20Believe%20Me%20Natalie.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>91</key>
+		<dict>
+			<key>Track ID</key><integer>91</integer>
+			<key>Name</key><string>Midnight Show</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7594698</integer>
+			<key>Total Time</key><integer>243017</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:38Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>249</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>ESCAPE</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>EC2EA38BFA729AF8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/10_TheKillers_MidnightShow.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>93</key>
+		<dict>
+			<key>Track ID</key><integer>93</integer>
+			<key>Name</key><string>Everything Will Be Alright</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album Artist</key><string>The Killers</string>
+			<key>Composer</key><string>Brandon Flowers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock/Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5526760</integer>
+			<key>Total Time</key><integer>345286</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:39Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-11-27T01:35:06Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Killers</string>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>9EADB2F020811330</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/11%20-%20Everything%20Will%20Be%20Alright.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>95</key>
+		<dict>
+			<key>Track ID</key><integer>95</integer>
+			<key>Name</key><string>The Ballad Of Michael Valentine (Bonus)</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5798350</integer>
+			<key>Total Time</key><integer>231680</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:35Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>196</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Sort Name</key><string>Ballad Of Michael Valentine (Bonus)</string>
+			<key>Persistent ID</key><string>9B44AEE450478062</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/12.%20The%20Ballad%20Of%20Michael%20Valentine%20(Bonus).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>97</key>
+		<dict>
+			<key>Track ID</key><integer>97</integer>
+			<key>Name</key><string>Who Let You Go (Bonus)</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5569892</integer>
+			<key>Total Time</key><integer>231706</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:31Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3468343581</integer>
+			<key>Play Date UTC</key><date>2013-11-27T01:46:21Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>70469AEF6D64F192</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/13.%20Who%20Let%20You%20Go%20(Bonus).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>99</key>
+		<dict>
+			<key>Track ID</key><integer>99</integer>
+			<key>Name</key><string>Under The Gun (Bonus)</string>
+			<key>Artist</key><string>The Killers</string>
+			<key>Album</key><string>Hot Fuss</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3869050</integer>
+			<key>Total Time</key><integer>153391</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2013-11-27T01:32:33Z</date>
+			<key>Date Added</key><date>2013-11-27T01:32:59Z</date>
+			<key>Bit Rate</key><integer>196</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Artist</key><string>Killers</string>
+			<key>Persistent ID</key><string>BBBBCF946DC58F06</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Stephen/Downloads/The%20Killers%20-%20Hot%20Fuss%20(2004)/14.%20Under%20The%20Gun%20(Bonus).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Library</string>
+			<key>Master</key><true/>
+			<key>Playlist ID</key><integer>101</integer>
+			<key>Playlist Persistent ID</key><string>CC899595C3C57E4D</string>
+			<key>Visible</key><false/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>73</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>75</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>77</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>79</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>81</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>83</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>85</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>87</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>89</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>91</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>93</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>95</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>97</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>99</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Music</string>
+			<key>Playlist ID</key><integer>118</integer>
+			<key>Playlist Persistent ID</key><string>91CB994BFA9EF182</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>73</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>75</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>77</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>79</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>81</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>83</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>85</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>87</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>89</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>91</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>93</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>95</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>97</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>99</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Movies</string>
+			<key>Playlist ID</key><integer>144</integer>
+			<key>Playlist Persistent ID</key><string>2857B6F89A7B6395</string>
+			<key>Distinguished Kind</key><integer>2</integer>
+			<key>Movies</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>TV Shows</string>
+			<key>Playlist ID</key><integer>147</integer>
+			<key>Playlist Persistent ID</key><string>A9DD20C066B10EB8</string>
+			<key>Distinguished Kind</key><integer>3</integer>
+			<key>TV Shows</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>Genius</string>
+			<key>Playlist ID</key><integer>166</integer>
+			<key>Playlist Persistent ID</key><string>E6584859FA12D4AC</string>
+			<key>Distinguished Kind</key><integer>26</integer>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>90’s Music</string>
+			<key>Playlist ID</key><integer>169</integer>
+			<key>Playlist Persistent ID</key><string>19AAA6AC7F40B267</string>
+			<key>Distinguished Kind</key><integer>200</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAB8YAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAB88AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgFNMc3QAAQAB
+			AAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAABAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAIAAAAAAAAAAA
+			AAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Classical Music</string>
+			<key>Playlist ID</key><integer>172</integer>
+			<key>Playlist Persistent ID</key><string>B2EB5F2474E29C55</string>
+			<key>Distinguished Kind</key><integer>206</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAU0xzdAABAAEAAAACAAAAAQAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAADwAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABVxTTHN0AAEAAQAAABEAAAAB
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAABIAQwBsAGEAcwBzAGkAYwBhAGwAAAAIAQAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABLAGwAYQBzAHMAaQBlAGsAAAAI
+			AQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgBD
+			AGwAYQBzAHMAaQBxAHUAZQAAAAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAOAEsAbABhAHMAcwBpAGsAAAAIAQAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABDAGwAYQBzAHMAaQBjAGEAAAAI
+			AQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjCv
+			MOkwtzDDMK8AAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAADgBDAGwA4QBzAGkAYwBhAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAASwBsAGEAcwBzAGkAcwBrAAAACAEAAAEAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQwBsAOEAcwBz
+			AGkAYwBhAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAABIASwBsAGEAcwBzAGkAcwBrAHQAAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAQaBDsEMARBBEEEOARHBDUEQQQ6BDAETwAA
+			AAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS
+			AEsAbABhAHMAeQBjAHoAbgBhAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAABIASwBsAGEAcwBzAGkAbgBlAG4AAAAIAQAAAQAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADABLAGwAYQBzAGkAawAA
+			AAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU
+			AEsAbABhAHMAcwB6AGkAawB1AHMAAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAFgBWAOEBfgBuAOEAIABoAHUAZABiAGEAAAAIAQAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZDBkQGJwYz
+			BkoGQwZK
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>My Top Rated</string>
+			<key>Playlist ID</key><integer>175</integer>
+			<key>Playlist Persistent ID</key><string>D59F1EB163A9E190</string>
+			<key>Distinguished Kind</key><integer>201</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAADwAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Recently Added</string>
+			<key>Playlist ID</key><integer>178</integer>
+			<key>Playlist Persistent ID</key><string>5B8D1288DD8AA363</string>
+			<key>Distinguished Kind</key><integer>204</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABELa4tri2uLa7//////////gAAAAAACTqA
+			La4tri2uLa4AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AgAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>73</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>75</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>77</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>79</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>81</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>83</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>85</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>87</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>89</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>91</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>93</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>95</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>97</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>99</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Recently Played</string>
+			<key>Playlist ID</key><integer>195</integer>
+			<key>Playlist Persistent ID</key><string>153BF09E75DBF7FA</string>
+			<key>Distinguished Kind</key><integer>203</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABELa4tri2uLa7//////////gAAAAAACTqA
+			La4tri2uLa4AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AgAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>75</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>77</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>97</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Top 25 Most Played</string>
+			<key>Playlist ID</key><integer>200</integer>
+			<key>Playlist Persistent ID</key><string>B413CF16BC087B53</string>
+			<key>Distinguished Kind</key><integer>202</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEBAwAAABkAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkCAAABAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAEAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>75</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>77</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>97</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
