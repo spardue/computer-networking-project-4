@@ -26,13 +26,13 @@ import java.util.List;
 public class ClientLogic {
 	
 	public final int SERVER_PORT = 1337;
-	public final String SERVER_ADDRESS = "143.215.114.88";
-	public final String LOCAL_FILE_PATH = "files";
+	public final String SERVER_ADDRESS = "128.61.24.142";
+	//public final String LOCAL_FILE_PATH = "files";
 	
 	private Socket s;
 	private OutputStream out;
 	public DataInputStream is;
-	private File root;
+	private File root; //root directory for external storage
 	
 	public ClientLogic(File root){
 		this.root = root;
