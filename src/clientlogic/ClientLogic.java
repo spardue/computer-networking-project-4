@@ -140,7 +140,7 @@ public class ClientLogic {
 			try {
 				char buff = (char) is.read();
 				if (buff != '\0'){
-					fInfo.name+=buff;
+					fInfo.name += buff;
 				}
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -308,6 +308,7 @@ public class ClientLogic {
 	
 	
 	public static void main(String[] arg){
+		
 		ClientLogic logic = new ClientLogic();
 		System.out.println(logic.list());
 		System.out.println(logic.list());
