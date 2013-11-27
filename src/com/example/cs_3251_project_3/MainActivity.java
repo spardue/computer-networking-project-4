@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
 		// matches variables with their resource id's, and sets up OnClickListeners
 		clientOutput = (EditText)findViewById(R.id.clientOutput);
 		
@@ -45,8 +46,22 @@ public class MainActivity extends Activity {
 		});
 		
 		diffButton = (Button)findViewById(R.id.diffButton);
+		diffButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				new DiffRequest().execute();
+			}
+		});
 		
 		pullButton = (Button)findViewById(R.id.pullButton);
+		pullButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				new PullRequest().execute();
+			}
+		});
 		
 		leaveButton = (Button)findViewById(R.id.leaveButton);
 		leaveButton.setOnClickListener(new View.OnClickListener() {
@@ -98,7 +113,6 @@ public class MainActivity extends Activity {
 		
 		@Override
 		protected String doInBackground(String... params) {
-			
 			List<FileInfo> response = null;
 			StringBuilder output = new StringBuilder();
 			try {
@@ -109,7 +123,8 @@ public class MainActivity extends Activity {
 			
 			if(response != null) {
 				for(int i = 0; i < response.size(); i++) {
-					output.append(i + ". " + response.get(i).toString() + "\n");
+					int fNum = i + 1;
+					output.append(fNum + ". " + response.get(i).toString() + "\n");
 				}
 			} else {
 				output.append("Nothing Retrieved");
@@ -130,8 +145,32 @@ public class MainActivity extends Activity {
 
 		@Override
 		protected String doInBackground(String... params) {
-
-			return null;
+			List<FileInfo> response = null;
+			StringBuilder output = new StringBuilder();
+			try {
+				response = cL.diff();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			if(response != null) {
+				if(response.size() > 0) {
+					for(int i = 0; i < response.size(); i++) {
+						int fNum = i + 1;
+						output.append(fNum + response.get(i).toString() + "\n");
+					}
+				} else {
+					output.append("All files owned locally!");
+				}
+			}
+			return output.toString();
+		}
+		
+		@Override
+		protected void onPostExecute(String result) {
+			clientOutput.setTextSize(12);
+			clientOutput.setGravity(Gravity.LEFT);
+			clientOutput.setText("" + result);
 		}
 		
 	}
