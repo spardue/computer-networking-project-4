@@ -162,7 +162,7 @@ public class ClientLogic {
 			size = is.readInt();
 			size = Integer.reverseBytes(size);
 			//System.out.println(size);
-			File newFile = new File(root.getAbsolutePath(), fInfo.name); 
+			File newFile = new File(root, fInfo.name); 
 			System.out.println(newFile+" "+size);
 			
 			FileOutputStream f = new FileOutputStream(newFile);
@@ -337,13 +337,13 @@ public class ClientLogic {
 	
 	public static void main(String[] arg){
 		
-//		ClientLogic logic = new ClientLogic();
-//		System.out.println(logic.list());
-//		System.out.println(logic.list());
-//		//System.out.println(logic.getFilesFromLocalHost());
-//		System.out.println(logic.diff());
-//		logic.pull();
-//		logic.exit();
+		ClientLogic logic = new ClientLogic(new File("files"));
+		System.out.println(logic.list());
+		System.out.println(logic.list());
+		//System.out.println(logic.getFilesFromLocalHost());
+		System.out.println(logic.diff());
+		logic.pull();
+		logic.exit();
 		
 	}
 	
