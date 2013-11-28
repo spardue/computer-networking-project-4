@@ -119,3 +119,40 @@ Sending Diff to: 143.215.112.89
 Sending Diff to: 143.215.112.89
 Sending Diff to: 143.215.112.89
 Sending Diff to: 143.215.112.89
+SERVER LOGS
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130
+SERVER LOGS
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130
+SERVER LOGS
+Sending List to: 192.168.1.130
+Sending Diff to: 192.168.1.130
+Sending Files to: 192.168.1.130

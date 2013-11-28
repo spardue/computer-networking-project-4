@@ -47,6 +47,7 @@ FileInfo * getFileInfo(char * name) {
         bytes = fread(buff, sizeof(char), MAX_BUFF, fp);
     }
     MD5_Final(fi->checksum, &c);
+	fclose(fp);
     
     return fi;
 }

@@ -26,7 +26,7 @@ import java.io.*;
 public class ClientLogic {
 	
 	public final int SERVER_PORT = 1337;
-	public final String SERVER_ADDRESS = "128.61.24.142";
+	public final String SERVER_ADDRESS = "192.168.1.131";
 	public final String LOCAL_FILE_PATH = "files";
 	public final int RCV_BUFF = 1024;
 

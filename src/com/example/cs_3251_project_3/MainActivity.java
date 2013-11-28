@@ -226,11 +226,7 @@ public class MainActivity extends Activity {
 		
 		@Override
 		protected void onPostExecute(String result) {
-			if(result.equals("")) {
-				System.exit(0);
-			} else {
-				clientOutput.setText("" + result);
-			}
+			System.exit(0);
 		}
 		
 	}
