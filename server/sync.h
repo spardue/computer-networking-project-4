@@ -14,6 +14,7 @@
 
 #include "listdir.h"
 #include "netfileio.h"
+#include "xmlparser.h"
 
 /* Constants */
 #define RCVBUFSIZE 1024		    /* The receive buffer size */

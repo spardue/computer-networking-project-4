@@ -21,7 +21,9 @@ void sendDirectoryInfo(int clientSock) {
     //send the lenght of the dirInfo
     send(clientSock, &dInfo.length, sizeof(int), 0);
     LIST_FOREACH(file, &(dInfo.head), FileInfoEntry){
-        send(clientSock, file, sizeof(FileInfo), 0);
+        send(clientSock, file->checksum, 16, 0);
+        send(clientSock, file->name, 255, 0);
+        //send(clientSock, file, sizeof(FileInfo), 0);
     }
     
     freeDirectoryInfo(&dInfo);
@@ -49,6 +51,8 @@ int handle_diff(int clientSock, struct sockaddr_in clientAddr){
     return 0;
 }
 
+
+
 int handle_pull(int clientSock, struct sockaddr_in clientAddr){
 	printf("Sending Files to: %s\n", inet_ntoa(clientAddr.sin_addr));
     DirectoryInfo *diffDir;
@@ -72,6 +76,66 @@ int handle_pull(int clientSock, struct sockaddr_in clientAddr){
     freeDirectoryInfo(diffDir);
 	free(diffDir);
     return 0;
+}
+
+int handle_cap(int clientSock, struct sockaddr_in clientAddr){
+
+    int max;
+    int i;
+    FileInfo *f;
+
+    struct stat st;
+    
+    recv(clientSock, &max, sizeof(int), 0);
+    printf("Cap: %d", max);
+
+    Song songs[MAX_SONGS];
+
+    parseXML(songs);
+    int sendTo = 0;
+
+    for (i = MAX_SONGS - 1; i > 0 ; i--){
+        f = getFileInfo(songs[i].name);
+        stat(f->name, &st);
+        if (st.st_size < max) {
+            printf("%s %d\n", songs[i].name, songs[i].playCount);
+            sendTo = i;
+            max-=st.st_size;
+        }
+        
+    }
+    /*
+
+
+        printf("%s %d\n", songs[i].name, songs[i].playCount);
+        sendFile(clientSock, SERVER_DIR, f);
+
+        */
+    /*
+
+	printf("Sending Files to: %s\n", inet_ntoa(clientAddr.sin_addr));
+    DirectoryInfo *diffDir;
+    FileInfo *file;
+
+	FILE *fp = fopen(LOG_FILE, "a");
+	fprintf(fp, "Sending Files to: %s\n", inet_ntoa(clientAddr.sin_addr));
+	fclose(fp);
+	
+    sendDirectoryInfo(clientSock);
+    diffDir = recvDirectoryInfo(clientSock);
+    
+    if (diffDir->length > 0){
+        LIST_FOREACH(file, &(diffDir->head), FileInfoEntry){
+            sendFile(clientSock, SERVER_DIR, file);
+        }
+    } else {
+        printf("No files to sync!\n");
+    }
+    
+    freeDirectoryInfo(diffDir);
+	free(diffDir);
+    return 0;
+    */
 }
 
 int handle_exit(int clientSock) {
@@ -105,6 +169,10 @@ void *handleClient(SockAndAddr *sa) {
                 break;
             case 'P':
                 handle_pull(clientSock, clientAddr);
+                break;
+            case 'C':
+                handle_cap(clientSock, clientAddr);
+                buff = 'K';
                 break;
             case 'E':
                 handle_exit(clientSock);
